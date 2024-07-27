@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('pexels-ferarcosn-190819.jpg');
+     /* Makes sure the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.container{
+    margin: 30px;
+    padding: 30px;
+}
+.login{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+
+.log{
+    height: 420px;
+    width: 360px;
+    background-color: rgba(0, 0, 0, 0.736);
+    padding: 20px;
+    border-radius: 10px;
+
+    
+
+}
+.email{
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+    
+    border-radius: 2px;
+}
+.password{
+    height: 40px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 2px;
+
+}
+button{
+    height: 35px;
+    width: 300px;
+    margin-top: 35px;
+    background-color: rgb(34, 14, 53);
+    color: white;
+    font-weight: bolder;
+    border-style: none;
+    
+}
+p{
+    margin-top: 20px;
+    color: white;
+}
+.media{
+    margin-top: 15px;
+}
+.google{
+    margin-right: 35px;
+}
+.facebook{
+    margin-right: 35px;
+}
+.insta{
+    margin-right: 35px;
+}
+a{
+    color: blues;
+}
+h2{
+    color:rgb(31, 4, 57);
+
+}
+h1{
+    color: white;
+}
+
+@media screen and (max-width: 400px){
+    .feature{
+        background-color: pink;
+    }
+
+}
+@media screen and (max-width: 400px){
+    
+
+}
